@@ -1,0 +1,804 @@
+#
+# Translators:
+# Yuji Ngaoka <y.nagaoka77@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: User Role Editor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-21 10:21+0700\n"
+"PO-Revision-Date: 2015-10-23 17:54+0900\n"
+"Last-Translator: Yuji Ngaoka <y.nagaoka77@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/wp-translations/user-role-editor/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/settings-template.php:17
+msgid "User Role Editor - Options"
+msgstr "User Role Editor - オプション"
+
+#: ../includes/settings-template.php:21 ../includes/class-user-role-editor.php:547
+msgid "General"
+msgstr "全般"
+
+#: ../includes/settings-template.php:26 ../includes/class-user-role-editor.php:553
+msgid "Additional Modules"
+msgstr "追加モジュール"
+
+#: ../includes/settings-template.php:30 ../includes/class-user-role-editor.php:559
+msgid "Default Roles"
+msgstr "デフォルトロール"
+
+#: ../includes/settings-template.php:34 ../includes/class-user-role-editor.php:565
+msgid "Multisite"
+msgstr "マルチサイト"
+
+#: ../includes/settings-template.php:39
+msgid "About"
+msgstr "About"
+
+#: ../includes/settings-template.php:53 ../includes/class-ure-screen-help.php:15
+msgid "Show Administrator role at User Role Editor"
+msgstr "User Role Editor設定に管理者ロールを表示する"
+
+#: ../includes/settings-template.php:61 ../includes/class-ure-screen-help.php:18
+msgid "Show capabilities in the human readable form"
+msgstr "権限を可読言語で表示"
+
+#: ../includes/settings-template.php:69 ../includes/ure-role-edit.php:40 ../includes/ure-user-edit.php:63
+#: ../includes/class-ure-screen-help.php:21
+msgid "Show deprecated capabilities"
+msgstr "非推奨の権限を表示"
+
+#: ../includes/settings-template.php:81 ../includes/settings-template.php:117 ../includes/settings-template.php:149
+#: ../includes/settings-template.php:181
+msgid "Save"
+msgstr "保存"
+
+#: ../includes/settings-template.php:102 ../includes/class-ure-screen-help.php:41
+msgid "Count users without role"
+msgstr "ロールが無いユーザー数"
+
+#: ../includes/settings-template.php:129
+msgid "Primary default role: "
+msgstr "初期デフォルトロール: "
+
+#: ../includes/settings-template.php:136
+msgid "Other default roles for new registered user: "
+msgstr "新しい登録ユーザのためのその他のデフォルトロール: "
+
+#: ../includes/settings-template.php:142
+msgid ""
+"Note for multisite environment: take into account that other default roles should exist at the site, in order to be assigned to the "
+"new registered users."
+msgstr ""
+"マルチサイト環境への注意：他のデフォルトロールを新しい登録ユーザに割り当てるためには、サイトに存在する必要があることを考慮に入れま"
+"す。"
+
+#: ../includes/settings-template.php:168
+msgid "Allow non super administrators to create, edit, and delete users"
+msgstr "非特権管理者が作成、編集、およびユーザーを削除することを許可"
+
+#: ../includes/class-user-role-editor.php:195
+msgid "Change role for users without role"
+msgstr "ロール無しユーザーのロールを変更"
+
+#: ../includes/class-user-role-editor.php:196
+msgid "No rights"
+msgstr "権限がありません"
+
+#: ../includes/class-user-role-editor.php:197
+msgid "Provide new role"
+msgstr "新しいロールを提供"
+
+#: ../includes/class-user-role-editor.php:281 ../includes/class-user-role-editor.php:283
+msgid "You do not have permission to edit this user."
+msgstr "あなたはこのユーザーを編集する権限がありません"
+
+#: ../includes/class-user-role-editor.php:422
+msgid "Capabilities"
+msgstr "権限"
+
+#: ../includes/class-user-role-editor.php:514
+msgid "Settings"
+msgstr "設定"
+
+#: ../includes/class-user-role-editor.php:525 ../includes/class-ure-lib.php:2295
+msgid "Changelog"
+msgstr "Changelog"
+
+#: ../includes/class-user-role-editor.php:575 ../includes/class-user-role-editor.php:603 ../includes/class-user-role-editor.php:948
+#: ../includes/class-ure-lib.php:251
+msgid "User Role Editor"
+msgstr "User Role Editor"
+
+#: ../includes/class-user-role-editor.php:660 ../includes/class-user-role-editor.php:678 ../includes/class-user-role-editor.php:722
+msgid "User Role Editor options are updated"
+msgstr "User Role Editor オプションが更新されました"
+
+#: ../includes/class-user-role-editor.php:706
+msgid "Default Roles are updated"
+msgstr "デフォルトロールが更新されました"
+
+#: ../includes/class-user-role-editor.php:730
+msgid "You do not have sufficient permissions to manage options for User Role Editor."
+msgstr "あなたは、ユーザロールエディタのオプションを管理するための十分な権限がありません。"
+
+#: ../includes/class-user-role-editor.php:809
+msgid "Insufficient permissions to work with User Role Editor"
+msgstr "User Role Editorでの動作権限は不十分です"
+
+#: ../includes/class-user-role-editor.php:890
+msgid "Select All"
+msgstr "全選択"
+
+#: ../includes/class-user-role-editor.php:891
+msgid "Unselect All"
+msgstr "全選択解除"
+
+#: ../includes/class-user-role-editor.php:892
+msgid "Reverse"
+msgstr "選択を反転"
+
+#: ../includes/class-user-role-editor.php:893
+msgid "Update"
+msgstr "更新"
+
+#: ../includes/class-user-role-editor.php:894
+msgid "Please confirm permissions update"
+msgstr "権限の更新を確認してください"
+
+#: ../includes/class-user-role-editor.php:895
+msgid "Add New Role"
+msgstr "新しいロールを追加"
+
+#: ../includes/class-user-role-editor.php:896 ../includes/class-user-role-editor.php:901
+msgid "Rename Role"
+msgstr "ロール名変更"
+
+#: ../includes/class-user-role-editor.php:897
+msgid " Role name (ID) can not be empty!"
+msgstr "ロール名（ID）は空にすることはできません！"
+
+#: ../includes/class-user-role-editor.php:898
+msgid " Role name (ID) must contain latin characters, digits, hyphens or underscore only!"
+msgstr "ロール名（ID）はアルファベット、数字、ハイフンかアンダースコアが含まれてなければなりません！"
+
+#: ../includes/class-user-role-editor.php:899
+msgid " WordPress does not support numeric Role name (ID). Add latin characters to it."
+msgstr " WordPressは数値のみのロール名（ID）をサポートしていません。アルファベットを追加してください。"
+
+#: ../includes/class-user-role-editor.php:900
+msgid "Add Role"
+msgstr "ロール追加"
+
+#: ../includes/class-user-role-editor.php:902
+msgid "Delete Role"
+msgstr "ロール削除"
+
+#: ../includes/class-user-role-editor.php:903
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../includes/class-user-role-editor.php:904
+msgid "Add Capability"
+msgstr "権限追加"
+
+#: ../includes/class-user-role-editor.php:905 ../includes/class-user-role-editor.php:914
+msgid "Delete Capability"
+msgstr "権限削除"
+
+#: ../includes/class-user-role-editor.php:906
+msgid "Reset"
+msgstr "リセット"
+
+#: ../includes/class-user-role-editor.php:907
+msgid "DANGER! Resetting will restore default settings from WordPress Core."
+msgstr "DANGER! リセットは、WordPressのコアからデフォルト設定を復元します。"
+
+#: ../includes/class-user-role-editor.php:908
+msgid ""
+"If any plugins have changed capabilities in any way upon installation (such as S2Member, WooCommerce, and many more), those "
+"capabilities will be DELETED!"
+msgstr ""
+"いずれかのプラグインがインストール（例えばS2Member、WooCommerce、および多くのような）の際に権限を変更した場合は、それらの権限は削除さ"
+"れます！"
+
+#: ../includes/class-user-role-editor.php:909
+msgid "For more information on how to undo changes and restore plugin capabilities go to"
+msgstr "プラグイン権限の変更を元に戻す、リストアする詳細な情報のために"
+
+#: ../includes/class-user-role-editor.php:911
+msgid "Continue?"
+msgstr "Continue?"
+
+#: ../includes/class-user-role-editor.php:912
+msgid "Default Role"
+msgstr "デフォルトロール"
+
+#: ../includes/class-user-role-editor.php:913
+msgid "Set New Default Role"
+msgstr "デフォルトロールにセット"
+
+#: ../includes/class-user-role-editor.php:915
+msgid "Warning! Be careful - removing critical capability could crash some plugin or other custom code"
+msgstr "Warning! 重要な権限を削除すると、いくつかのプラグインや他のカスタムコードをクラッシュさせる可能性があります"
+
+#: ../includes/class-user-role-editor.php:916
+msgid " Capability name (ID) can not be empty!"
+msgstr " 権限名 (ID) は空にすることはできません！"
+
+#: ../includes/class-user-role-editor.php:917
+msgid " Capability name (ID) must contain latin characters, digits, hyphens or underscore only!"
+msgstr " 権限 名 (ID) はアルファベット、数字、ハイフンかアンダースコアが含まれてなければなりません！"
+
+#: ../includes/class-user-role-editor.php:951 ../includes/class-user-role-editor.php:980
+msgid "Other Roles"
+msgstr "他人のロール"
+
+#: ../includes/class-user-role-editor.php:962
+msgid "Edit"
+msgstr "編集"
+
+#: ../includes/ure-role-edit.php:17
+msgid "Select Role and change its capabilities:"
+msgstr "ロールを選択して権限を変更:"
+
+#: ../includes/ure-role-edit.php:30 ../includes/ure-user-edit.php:53
+msgid "Show capabilities in human readable form"
+msgstr "権限を可読言語で表示"
+
+#: ../includes/ure-role-edit.php:44
+msgid "If checked, then apply action to ALL sites of this Network"
+msgstr "チェックした場合、このネットワークのすべてのサイトにアクションが実行されます"
+
+#: ../includes/ure-role-edit.php:56
+msgid "Apply to All Sites"
+msgstr "すべてのサイトに適用"
+
+#: ../includes/ure-role-edit.php:63 ../includes/ure-user-edit.php:109
+msgid "Core capabilities:"
+msgstr "Wordpressコア権限:"
+
+#: ../includes/ure-role-edit.php:65 ../includes/ure-user-edit.php:111
+msgid "Quick filter:"
+msgstr "Quick filter:"
+
+#: ../includes/ure-role-edit.php:83 ../includes/ure-user-edit.php:130
+msgid "Custom capabilities:"
+msgstr "カスタム権限(プラグイン連動等):"
+
+#: ../includes/class-ure-lib.php:159
+msgid "Error: wrong request"
+msgstr "エラー: 間違った要求"
+
+#: ../includes/class-ure-lib.php:192 ../includes/class-ure-lib.php:203
+msgid "Role name (ID): "
+msgstr "ロール 名 (ID): "
+
+#: ../includes/class-ure-lib.php:194 ../includes/class-ure-lib.php:205
+msgid "Display Role Name: "
+msgstr "表示 ロール 名: "
+
+#: ../includes/class-ure-lib.php:196
+msgid "Make copy of: "
+msgstr "コピー作成: "
+
+#: ../includes/class-ure-lib.php:212
+msgid "Select Role:"
+msgstr "選択 ロール:"
+
+#: ../includes/class-ure-lib.php:227
+msgid "Delete:"
+msgstr "削除:"
+
+#: ../includes/class-ure-lib.php:234
+msgid "Capability name (ID): "
+msgstr "権限 名 (ID): "
+
+#: ../includes/class-ure-lib.php:348
+msgid "Error: "
+msgstr "エラー: "
+
+#: ../includes/class-ure-lib.php:348
+msgid "Role"
+msgstr "ロール"
+
+#: ../includes/class-ure-lib.php:349
+msgid "does not exist"
+msgstr "存在しません"
+
+#: ../includes/class-ure-lib.php:392
+msgid "Role is updated successfully"
+msgstr "ロールは更新されました"
+
+#: ../includes/class-ure-lib.php:394
+msgid "Roles are updated for all network"
+msgstr "ロールはすべてのネットワークのために更新されます"
+
+#: ../includes/class-ure-lib.php:400
+msgid "Error occured during role(s) update"
+msgstr "ロール更新中にエラーが発生しました"
+
+#: ../includes/class-ure-lib.php:407
+msgid "User capabilities are updated successfully"
+msgstr "ユーザー権限が更新されました"
+
+#: ../includes/class-ure-lib.php:412
+msgid "Error occured during user update"
+msgstr "ユーザー更新中にエラーが発生しました"
+
+#: ../includes/class-ure-lib.php:470
+msgid "User Roles are restored to WordPress default values. "
+msgstr "ユーザーロールは、WordPressのデフォルト値に復元されます. "
+
+#: ../includes/class-ure-lib.php:1337
+msgid "Help"
+msgstr "Help"
+
+#: ../includes/class-ure-lib.php:1695
+msgid "Error is occur. Please check the log file."
+msgstr "エラーが発生することがあります。ログファイルを確認してください。"
+
+#: ../includes/class-ure-lib.php:1738 ../includes/class-ure-lib.php:1805
+msgid "Error: Role ID must contain latin characters, digits, hyphens or underscore only!"
+msgstr "エラー：ロールIDは、アルファベット、数字、ハイフンかアンダースコアが含まれる必要があります"
+
+#: ../includes/class-ure-lib.php:1742 ../includes/class-ure-lib.php:1809
+msgid "Error: WordPress does not support numeric Role name (ID). Add latin characters to it."
+msgstr "エラー：WordPressは数値のみのロール名（ID）をサポートしていません。アルファベットを追加してください。"
+
+#: ../includes/class-ure-lib.php:1757
+#, php-format
+msgid "Role %s exists already"
+msgstr "ロール %s は既に存在しています"
+
+#: ../includes/class-ure-lib.php:1772
+msgid "Error is encountered during new role create operation"
+msgstr "新しいロール作成中にエラーが発生しました"
+
+#: ../includes/class-ure-lib.php:1774
+#, php-format
+msgid "Role %s is created successfully"
+msgstr "ロール %s は作成されました"
+
+#: ../includes/class-ure-lib.php:1798
+msgid "Error: Role ID is empty!"
+msgstr "エラー: ロール ID が空白です"
+
+#: ../includes/class-ure-lib.php:1816
+msgid "Error: Empty role display name is not allowed."
+msgstr "エラー: 空のロール表示名は許可されていません"
+
+#: ../includes/class-ure-lib.php:1823
+#, php-format
+msgid "Role %s does not exists"
+msgstr "ロール %s が存在しません"
+
+#: ../includes/class-ure-lib.php:1831
+#, php-format
+msgid "Role %s is renamed to %s successfully"
+msgstr "ロール %s は %s に名前変更されました"
+
+#: ../includes/class-ure-lib.php:1898
+msgid "Error encountered during role delete operation"
+msgstr "ロール削除操作中にエラーが発生しました"
+
+#: ../includes/class-ure-lib.php:1900
+msgid "Unused roles are deleted successfully"
+msgstr "未使用のロールが削除されました"
+
+#: ../includes/class-ure-lib.php:1902
+#, php-format
+msgid "Role %s is deleted successfully"
+msgstr "ロール %s は削除されました"
+
+#: ../includes/class-ure-lib.php:1927
+msgid "Error encountered during default role change operation"
+msgstr "デフォルトロールを変更中にエラーが発生しました"
+
+#: ../includes/class-ure-lib.php:1933
+#, php-format
+msgid "Default role for new users is set to %s successfully"
+msgstr "新規ユーザーのデフォルト設定を %s にセットしました"
+
+#: ../includes/class-ure-lib.php:1952
+msgid "Editor"
+msgstr "編集者"
+
+#: ../includes/class-ure-lib.php:1953
+msgid "Author"
+msgstr "著者"
+
+#: ../includes/class-ure-lib.php:1954
+msgid "Contributor"
+msgstr "投稿者"
+
+#: ../includes/class-ure-lib.php:1955
+msgid "Subscriber"
+msgstr "購読者"
+
+#: ../includes/class-ure-lib.php:1957
+msgid "Switch themes"
+msgstr "テーマ変更"
+
+#: ../includes/class-ure-lib.php:1958
+msgid "Edit themes"
+msgstr "テーマ編集"
+
+#: ../includes/class-ure-lib.php:1959
+msgid "Activate plugins"
+msgstr "プラグイン有効化"
+
+#: ../includes/class-ure-lib.php:1960
+msgid "Edit plugins"
+msgstr "プラグイン編集"
+
+#: ../includes/class-ure-lib.php:1961
+msgid "Edit users"
+msgstr "ユーザー編集"
+
+#: ../includes/class-ure-lib.php:1962
+msgid "Edit files"
+msgstr "ファイル編集"
+
+#: ../includes/class-ure-lib.php:1963
+msgid "Manage options"
+msgstr "オプション管理"
+
+#: ../includes/class-ure-lib.php:1964
+msgid "Moderate comments"
+msgstr "コメントモデレート"
+
+#: ../includes/class-ure-lib.php:1965
+msgid "Manage categories"
+msgstr "カテゴリ管理"
+
+#: ../includes/class-ure-lib.php:1966
+msgid "Manage links"
+msgstr "リンク管理"
+
+#: ../includes/class-ure-lib.php:1967
+msgid "Upload files"
+msgstr "ファイルアップロード"
+
+#: ../includes/class-ure-lib.php:1968
+msgid "Import"
+msgstr "インポート"
+
+#: ../includes/class-ure-lib.php:1969
+msgid "Unfiltered html"
+msgstr "フィルタリングされていないHTML"
+
+#: ../includes/class-ure-lib.php:1970
+msgid "Edit posts"
+msgstr "投稿を編集"
+
+#: ../includes/class-ure-lib.php:1971
+msgid "Edit others posts"
+msgstr "他人の投稿を編集"
+
+#: ../includes/class-ure-lib.php:1972
+msgid "Edit published posts"
+msgstr "公開投稿の編集"
+
+#: ../includes/class-ure-lib.php:1973
+msgid "Publish posts"
+msgstr "公開投稿"
+
+#: ../includes/class-ure-lib.php:1974
+msgid "Edit pages"
+msgstr "ページ編集"
+
+#: ../includes/class-ure-lib.php:1975
+msgid "Read"
+msgstr "読む"
+
+#: ../includes/class-ure-lib.php:1976
+msgid "Level 10"
+msgstr "Level 10"
+
+#: ../includes/class-ure-lib.php:1977
+msgid "Level 9"
+msgstr "Level 9"
+
+#: ../includes/class-ure-lib.php:1978
+msgid "Level 8"
+msgstr "Level 8"
+
+#: ../includes/class-ure-lib.php:1979
+msgid "Level 7"
+msgstr "Level 7"
+
+#: ../includes/class-ure-lib.php:1980
+msgid "Level 6"
+msgstr "Level 6"
+
+#: ../includes/class-ure-lib.php:1981
+msgid "Level 5"
+msgstr "Level 5"
+
+#: ../includes/class-ure-lib.php:1982
+msgid "Level 4"
+msgstr "Level 4"
+
+#: ../includes/class-ure-lib.php:1983
+msgid "Level 3"
+msgstr "Level 3"
+
+#: ../includes/class-ure-lib.php:1984
+msgid "Level 2"
+msgstr "Level 2"
+
+#: ../includes/class-ure-lib.php:1985
+msgid "Level 1"
+msgstr "Level 1"
+
+#: ../includes/class-ure-lib.php:1986
+msgid "Level 0"
+msgstr "Level 0"
+
+#: ../includes/class-ure-lib.php:1987
+msgid "Edit others pages"
+msgstr "他人のページを編集"
+
+#: ../includes/class-ure-lib.php:1988
+msgid "Edit published pages"
+msgstr "公開ページを編集"
+
+#: ../includes/class-ure-lib.php:1989
+msgid "Publish pages"
+msgstr "公開ページ"
+
+#: ../includes/class-ure-lib.php:1990
+msgid "Delete pages"
+msgstr "ページ削除"
+
+#: ../includes/class-ure-lib.php:1991
+msgid "Delete others pages"
+msgstr "他人のページを削除"
+
+#: ../includes/class-ure-lib.php:1992
+msgid "Delete published pages"
+msgstr "公開ページを削除"
+
+#: ../includes/class-ure-lib.php:1993
+msgid "Delete posts"
+msgstr "投稿削除"
+
+#: ../includes/class-ure-lib.php:1994
+msgid "Delete others posts"
+msgstr "他人の投稿を削除"
+
+#: ../includes/class-ure-lib.php:1995
+msgid "Delete published posts"
+msgstr "公開投稿を削除"
+
+#: ../includes/class-ure-lib.php:1996
+msgid "Delete private posts"
+msgstr "プライベート投稿を削除"
+
+#: ../includes/class-ure-lib.php:1997
+msgid "Edit private posts"
+msgstr "プライベート投稿を編集"
+
+#: ../includes/class-ure-lib.php:1998
+msgid "Read private posts"
+msgstr "プライベート投稿を読む"
+
+#: ../includes/class-ure-lib.php:1999
+msgid "Delete private pages"
+msgstr "プライベート投稿を削除"
+
+#: ../includes/class-ure-lib.php:2000
+msgid "Edit private pages"
+msgstr "プライベートページを編集"
+
+#: ../includes/class-ure-lib.php:2001
+msgid "Read private pages"
+msgstr "プライベートページを読む"
+
+#: ../includes/class-ure-lib.php:2002
+msgid "Delete users"
+msgstr "ユーザーを削除"
+
+#: ../includes/class-ure-lib.php:2003
+msgid "Create users"
+msgstr "ユーザーを作成"
+
+#: ../includes/class-ure-lib.php:2004
+msgid "Unfiltered upload"
+msgstr "フィルターされていないアップロード"
+
+#: ../includes/class-ure-lib.php:2005
+msgid "Edit dashboard"
+msgstr "ダッシュボード編集"
+
+#: ../includes/class-ure-lib.php:2006
+msgid "Update plugins"
+msgstr "プラグイン更新"
+
+#: ../includes/class-ure-lib.php:2007
+msgid "Delete plugins"
+msgstr "プラグイン削除"
+
+#: ../includes/class-ure-lib.php:2008
+msgid "Install plugins"
+msgstr "プラグインインストール"
+
+#: ../includes/class-ure-lib.php:2009
+msgid "Update themes"
+msgstr "テーマ更新"
+
+#: ../includes/class-ure-lib.php:2010
+msgid "Install themes"
+msgstr "テーマインストール"
+
+#: ../includes/class-ure-lib.php:2011
+msgid "Update core"
+msgstr "Wordpressコア更新"
+
+#: ../includes/class-ure-lib.php:2012
+msgid "List users"
+msgstr "ユーザーリスト"
+
+#: ../includes/class-ure-lib.php:2013
+msgid "Remove users"
+msgstr "ユーザー移動"
+
+#: ../includes/class-ure-lib.php:2014
+msgid "Add users"
+msgstr "ユーザー追加"
+
+#: ../includes/class-ure-lib.php:2015
+msgid "Promote users"
+msgstr "ユーザー推進"
+
+#: ../includes/class-ure-lib.php:2016
+msgid "Edit theme options"
+msgstr "テーマオプション編集"
+
+#: ../includes/class-ure-lib.php:2017
+msgid "Delete themes"
+msgstr "テーマ削除"
+
+#: ../includes/class-ure-lib.php:2018
+msgid "Export"
+msgstr "エクスポート"
+
+#: ../includes/class-ure-lib.php:2128
+msgid "Error: Capability name must contain latin characters and digits only!"
+msgstr "エラー: 権限名はアルファベットと数字が含まれている必要があります"
+
+#: ../includes/class-ure-lib.php:2141
+#, php-format
+msgid "Capability %s is added successfully"
+msgstr "権限 %s が追加されました"
+
+#: ../includes/class-ure-lib.php:2143
+#, php-format
+msgid "Capability %s exists already"
+msgstr "権限 %s は既にあります"
+
+#: ../includes/class-ure-lib.php:2168
+#, php-format
+msgid "Error! You do not have permission to delete this capability: %s!"
+msgstr "エラー! あなたは%sを削除する権限がありません"
+
+#: ../includes/class-ure-lib.php:2187
+#, php-format
+msgid "Capability %s is removed successfully"
+msgstr "権限 %s は移動されました"
+
+#: ../includes/class-ure-lib.php:2291
+msgid "Version:"
+msgstr "Version:"
+
+#: ../includes/class-ure-lib.php:2292
+msgid "Author's website"
+msgstr "Author's website"
+
+#: ../includes/class-ure-lib.php:2293
+msgid "Plugin webpage"
+msgstr "Plugin webページ"
+
+#: ../includes/class-ure-lib.php:2294
+msgid "Plugin download"
+msgstr "プラグインダウンロード"
+
+#: ../includes/class-ure-lib.php:2296
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../includes/class-ure-lib.php:2344
+msgid "None"
+msgstr "None"
+
+#: ../includes/class-ure-lib.php:2371
+msgid "Delete All Unused Roles"
+msgstr "すべての未使用ロールを削除"
+
+#: ../includes/class-ure-lib.php:2395
+msgid "&mdash; No role for this site &mdash;"
+msgstr "&mdash; このサイトにはロールがありません &mdash;"
+
+#: ../includes/ure-user-edit.php:31
+msgid "Network Super Admin"
+msgstr "ネットワーク特権管理者"
+
+#: ../includes/ure-user-edit.php:34
+msgid "Change capabilities for user"
+msgstr "ユーザー権限を変更"
+
+#: ../includes/ure-user-edit.php:71
+msgid "Primary Role:"
+msgstr "主 ロール:"
+
+#: ../includes/ure-user-edit.php:81
+msgid "bbPress Role:"
+msgstr "bbPress ロール:"
+
+#: ../includes/ure-user-edit.php:91
+msgid "Other Roles:"
+msgstr "他 ロール:"
+
+#: ../includes/class-ure-screen-help.php:16
+msgid ""
+"turn this option on in order to make the \"Administrator\" role available at the User Role Editor roles selection drop-down list. It "
+"is hidden by default for security reasons."
+msgstr ""
+"ユーザーロールエディタの役割の選択ドロップダウンリストで「管理者」の役割を利用できるようにするためには、このオプションをオンにしま"
+"す。これは、セキュリティ上の理由から、デフォルトでは非表示になっています。"
+
+#: ../includes/class-ure-screen-help.php:19
+msgid ""
+"automatically converts capability names from the technical form for internal use like \"edit_others_posts\" to more user friendly "
+"form, e.g. \"Edit others posts\"."
+msgstr "自動的に\"edit_others_posts\"を例えば. \"Edit others posts\"のように権限名を変換します。"
+
+#: ../includes/class-ure-screen-help.php:22
+msgid ""
+"Capabilities like \"level_0\", \"level_1\" are deprecated and are not used by WordPress. They are left at the user roles for the "
+"compatibility purpose with the old themes and plugins code. Turning on this option will show those deprecated capabilities."
+msgstr ""
+"\"level_0\", \"level_1\" のような権限はWordPressでは廃止されています. 古いテーマやプラグインのコードとの互換性の目的のためにこれらは"
+"存在させています. このオプションをオンにすると、これらの非推奨の権限が表示されます。"
+
+#: ../includes/class-ure-screen-help.php:42
+msgid ""
+"Show at the \"Users\" page a quant of users without role. Module allows to assign all of them an empty role \"No rights\", in order "
+"to look on the users list with role \"No rights\" at the separate tab then."
+msgstr ""
+"「ユーザー」ページで役割を持たないユーザ数を表示します. モジュールは、別のタブで役割「いいえ権」を持つユーザーのリストに見るために、"
+"空の役割「いいえ権」、それらのすべてを割り当てることができます。"
+
+#: ../includes/class-ure-screen-help.php:59
+msgid "Other default roles for new registered user"
+msgstr "新しい登録ユーザのためのその他のデフォルトロール"
+
+#: ../includes/class-ure-screen-help.php:60
+msgid ""
+"select roles below to assign them to the new user automatically as an addition to the primary role. Note for multisite environment: "
+"take into account that other default roles should exist at the site, in order to be assigned to the new registered users."
+msgstr ""
+"主な役割に加えて、自動的に新しいユーザーに割り当てるには、以下の役割を選択します。マルチサイト環境への注意：他のデフォルトの役割が新"
+"しい登録ユーザに割り当てるためには、サイトに存在する必要があることを考慮に入れます。"
+
+#: ../includes/class-ure-screen-help.php:78
+msgid "Allow non super-admininstrators to create, edit and delete users"
+msgstr "特権管理者は、作成、編集、およびユーザーを削除することを許可します"
+
+#: ../includes/class-ure-screen-help.php:79
+msgid ""
+"Super administrator only may create, edit and delete users under WordPress multi-site by default. Turn this option on in order to "
+"remove this limitation."
+msgstr ""
+"特権管理者は、デフォルトでWordPressのマルチサイトでユーザを作成、編集、削除できます。この制限をなくすためには、このオプションをオンに"
+"します。"
