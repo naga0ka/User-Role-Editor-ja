@@ -1,6 +1,6 @@
 # Description
 
-Japanese language for [User-Role-Editor(WP Plugin)](https://ja.wordpress.org/plugins/user-role-editor/)
+Japanese language for [User-Role-Editor 4.19.2 (WP Plugin)](https://ja.wordpress.org/plugins/user-role-editor/)
 
 # Install
 
